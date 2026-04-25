@@ -285,7 +285,7 @@ class TicTacToe:
         conn.close()
     
     def get_scoreboard(self):
-        """Retrieve and return the user scoreboard from database.
+        """Retrieve and return the user scoreboard fr database.
         
         Returns:
             list: List of tuples (username, wins, losses) sorted by wins descending
@@ -321,7 +321,7 @@ class TicTacToe:
         
         btn4 = tk.Button(frame, text="Exit", width=20, command=self.root.quit)
         btn4.pack(pady=5)
-    
+       
     def show_create_account(self):
         """Display create account dialog and process account creation."""
         username = simpledialog.askstring("Create Account", "Enter username:")
